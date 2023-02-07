@@ -1,0 +1,153 @@
+
+@font-face {
+  font-family: 'Waterlily';
+  src: local('Waterlily'), url(./fonts/Waterlily.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face{
+  font-family: 'Feature';
+  src: local('Feature'),  url(./fonts/FeatureMono-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App-Nav-Hero {
+  background-color: #150F0A;
+  background-image: url('./images/bg-main.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+.feature{
+  font-family: 'Feature';
+  src: local('Feature'), url(./fonts/FeatureMono-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.feature{
+  font-family: 'Feature';
+  src: local('Feature'), url(./fonts/FeatureMono-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.lily{
+  font-family: 'Waterlily';
+  src: local('Waterlily'), url(./fonts/Waterlily.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.Appbar {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  position: relative;
+  background-size: 4px 4px;
+}
+
+.App-Gallery{
+  background-image: url('./images/bg-gallery.png'), linear-gradient(90deg, rgba(46,14,39,1) 34%, rgba(19,47,46,1) 100%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.Tokenomics{
+  background-image: url('./images/bg-tokenomics.png'), linear-gradient(90deg, rgba(0,0,0,1) 34%, rgba(0,0,0,1) 100%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.Gonewild{
+  background-image: url('./images/gonewild.png'), linear-gradient(90deg, rgba(0,0,0,1) 34%, rgba(0,0,0,1) 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.NavbuttonMult{
+    width: 100%;
+    display: flex;
+    justify-content: end;    
+}
+
+.Navbutton{
+  display: none;
+}
+
+.Hero-mobile{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.Gallery-mobile{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1095px) {
+  .NavbuttonMult{
+      display: none;
+  }
+
+  .Navbutton{
+    width: 100%;
+    display: flex;
+    justify-content: end; 
+  }
+
+  .Hero-mobile{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Gallery-mobile{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+
+  .App-Nav-Hero {
+    background-color: #150F0A;
+    background-image: url('./images/bg-main.png');
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
+
+
+}
