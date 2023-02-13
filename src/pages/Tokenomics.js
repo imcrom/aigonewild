@@ -109,6 +109,12 @@ export const Tokenomics = () => {
                                 Telegram: https://t.me/aigonewild
                             </Typography>
                         </div>
+                        <div className='flex items-center justify-center text-center  p-2 w-full bg-[#1e1e1e] opacity-80'>
+                            <Typography className='feature text-2xl md:text-base ' color='#efefef' variant='p'>
+                                admin@aigonewild.com
+                            </Typography>
+
+                        </div>
                         
                     </div>
             </div>

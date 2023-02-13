@@ -135,6 +135,30 @@
     flex-direction: column;
 
   }
+
+  .Gonewild{
+    background-image: url('./images/gonewild.png'), linear-gradient(90deg, rgba(0,0,0,1) 34%, rgba(0,0,0,1) 100%);
+    background-color: #150F0A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  @media (max-width: 1133px){
+    .Gonewild{
+      background-image: url('./images/gonewild.png'), linear-gradient(90deg, rgba(0,0,0,1) 34%, rgba(0,0,0,1) 100%);
+      background-color: #150F0A;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background-size: 100% 100%;
+      background-position: center;
+    }
+  }
   
 
   .App-Nav-Hero {

@@ -9,8 +9,7 @@ import {GoneWild} from './pages/GoneWild';
 const App = () => {
   return (
         <Routes>
-                  <Route path='/' element={<><Navbar/><Gallery/><Tokenomics/></>}/>
-                  <Route path='/generate' element={<><GoneWild/></>}/>
+                <Route path='/' element={<><GoneWild/></>}/>
         </Routes>
   )
 }
